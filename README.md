@@ -37,5 +37,6 @@ $ grepx urls.txt ssrf
 
 **Hope you understood :)**
 
-
-
+### Inspired by
+* <a href="https://github.com/1ndianl33t/Gf-Patterns">Gf_Patterns by @1ndianl33t</a>
+* <a href="https://github.com/tomnomnom/gf">gf by @tomnomnom</a>
