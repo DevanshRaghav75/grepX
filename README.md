@@ -15,19 +15,19 @@
 
 ### Finding xss patterns
 ```
-$ grepx urls_file xss
+$ grepx urls_file xss -s -o output.txt
 ```
 
 ### Finding sqli patterns
 
 ```
-$ grepx urls_file.txt sqli
+$ grepx urls_file.txt sqli --silent 
 ```
 
 ### Finding idor patterns
 
 ```
-$ grepx urls.txt idor
+$ grepx urls.txt idor 
 ```
 
 ### Finding ssrf patterns
