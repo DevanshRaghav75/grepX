@@ -9,7 +9,7 @@ setup(
     version = "1.0",
     author = "Devansh Raghav",
     author_email = "indiananonymous75@gmail.com",
-    description = ("grep pattterns"),
+    description = ("grep stuff"),
     license = "MIT",
     keywords = ["grepX", "Bug Bounty", "pentesting", "security", "hacking"],
     url = "https://github.com/DevanshRaghav75/grepX",
