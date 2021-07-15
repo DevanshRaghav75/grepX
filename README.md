@@ -32,7 +32,7 @@ $ grepx urls.txt idor
 ### Finding ssrf patterns
 
 ```
-$ grepx urls.txt ssrf
+$ grepx urls.txt ssrf | tee urls.ssrf
 ```
 
 **Hope you understood :)**
