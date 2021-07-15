@@ -1,5 +1,5 @@
 <h1 align="center">grepX</h1>
-<h3 align="center">Find URLs that contains XSS, SQLI, SSRF, SSTI, LFI, IF</h3>
+<h3 align="center">Find URLs that contains XSS, SQLI, SSRF, SSTI, LFI, IDOR, </h3>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
