@@ -25,7 +25,6 @@ setup(
         "Programming Language :: Python",
     ],
     install_requires=[
-        'requests',
         'colorama',
     ],
 
