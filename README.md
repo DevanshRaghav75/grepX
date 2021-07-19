@@ -27,7 +27,7 @@ $ grepx urls_file.txt sqli --silent
 ### Finding idor patterns
 
 ```
-$ grepx urls.txt idor 
+$ grepx urls.txt idor -t 10
 ```
 
 ### Finding ssrf patterns
