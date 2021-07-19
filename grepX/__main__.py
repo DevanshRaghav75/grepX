@@ -1,3 +1,6 @@
+# Coded by @HS Devansh Raghav
+# follow me on instagram :) - https://instagram.com/hs_devansh_raghav
+
 import threading
 from concurrent.futures import ThreadPoolExecutor
 from grepX.core.args import PATTERN, FILE, OUTPUT, THREADS
