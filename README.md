@@ -9,7 +9,7 @@
 
 ## What is grepX?
 
-`grepX` is a python script that finds `xss, sqli, idor, ssrf, ssti, rce, redirect ` parameters/patterns from URLs.  
+`grepX` is a multi-threaded python script that finds `xss, sqli, idor, ssrf, ssti, rce, redirect ` parameters/patterns from the given URLs list.  
 
 ## Usage
 
