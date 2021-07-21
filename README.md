@@ -11,6 +11,22 @@
 
 `grepX` is a multi-threaded python script that finds `xss, sqli, idor, ssrf, ssti, rce, redirect ` parameters/patterns from the given URLs list.  
 
+## Installation
+```
+$ git clone https://github.com/DevanshRaghav75/grepX.git
+$ cd grepX
+$ python3 setup.py install
+$ grepX -h 
+```
+## Args
+| Args       |   Discription                        |
+|------------|--------------------------------------|
+|file        | Specify the URLs file                |
+|Pattern     | Specify the pattern you want to find |
+|-s/--silent | Enable silent mode                   |
+|-t/--threads| Specify the threads, default are 100 |
+|-o/--output | Specify the output file              |
+
 ## Usage
 
 ### Finding xss patterns
