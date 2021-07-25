@@ -330,7 +330,7 @@ def grep_xss():
                     print(each_read, sep='', end='')
                     found.append(each_read)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
                     
             
 def grep_sqli():
@@ -347,7 +347,7 @@ def grep_sqli():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_lfi():
     F = open(FILE, "r")
@@ -363,7 +363,7 @@ def grep_lfi():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_ssrf():
     F = open(FILE, "r")
@@ -379,7 +379,7 @@ def grep_ssrf():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_ssti():
     F = open(FILE, "r")
@@ -395,7 +395,7 @@ def grep_ssti():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_rce():
     F = open(FILE, "r")
@@ -411,7 +411,7 @@ def grep_rce():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_idor():
     F = open(FILE, "r")
@@ -427,7 +427,7 @@ def grep_idor():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
 
 def grep_redirect():
     F = open(FILE, "r")
@@ -443,4 +443,4 @@ def grep_redirect():
                     print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
-        print(i, file=OUTPUT)
+        print(i,sep='', end='', file=OUTPUT)
