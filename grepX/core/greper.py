@@ -324,10 +324,10 @@ def grep_xss():
         for each_pattern in xss_patterns:
             if re.findall(each_pattern, each_read):
                 if SILENT:
-                    print(each_read, file=OUTPUT)
+                    print(each_read,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(each_read)
+                    print(each_read, sep='', end='')
                     found.append(each_read)
     for i in found:
         print(i, file=OUTPUT)
@@ -341,10 +341,10 @@ def grep_sqli():
         for pattern in sqli_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='' , file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -357,10 +357,10 @@ def grep_lfi():
         for pattern in lfi_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -373,10 +373,10 @@ def grep_ssrf():
         for pattern in ssrf_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -389,10 +389,10 @@ def grep_ssti():
         for pattern in ssti_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -405,10 +405,10 @@ def grep_rce():
         for pattern in rce_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -421,10 +421,10 @@ def grep_idor():
         for pattern in idor_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
@@ -437,10 +437,10 @@ def grep_redirect():
         for pattern in redirect_patterns:
             if re.findall(pattern, TAR):
                 if SILENT:
-                    print(TAR, file=OUTPUT)
+                    print(TAR,sep='', end='', file=OUTPUT)
                     pass
                 else:
-                    print(TAR)
+                    print(TAR, sep='', end='')
                     found.append(TAR)
     for i in found:
         print(i, file=OUTPUT)
