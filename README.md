@@ -24,35 +24,27 @@ $ grepX -h
 |file        | Specify the URLs file                |
 |Pattern     | Specify the pattern you want to find |
 |-s/--silent | Enable silent mode                   |
-|-t/--threads| Specify the threads, default are 100 |
-|-o/--output | Specify the output file              |
+|-c/--concurrency| Specify the concurrency, default are 100 |
 
 ## Usage
-
-### Finding xss patterns
-```
-$ grepx urls_file xss -s -o output.txt
-```
 
 ### Finding sqli patterns
 
 ```
-$ grepx urls_file.txt sqli --silent 
+grepx urls.txt sqli 
 ```
-
-### Finding idor patterns
-
-```
-$ grepx urls.txt idor -t 10
-```
-
-### Finding ssrf patterns
+### Finding xss patterns with silent and concurrency argument
 
 ```
-$ grepx urls.txt ssrf | tee urls.ssrf
+grepx urls.txt xss --silent -c 20
 ```
 
-**Hope you understood :)**
+### Finding and saving the output
+
+```
+grepx urls.txt lfi > urls.lfi
+```
+
 
 ### Inspired by
 * <a href="https://github.com/1ndianl33t/Gf-Patterns">Gf_Patterns by @1ndianl33t</a>
