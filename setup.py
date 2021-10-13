@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "grepX",
-    version = "1.3",
+    version = "1.4",
     author = "Devansh Raghav",
     author_email = "indiananonymous75@gmail.com",
     license = "MIT",
