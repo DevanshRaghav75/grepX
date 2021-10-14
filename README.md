@@ -1,5 +1,5 @@
 <h1 align="center">grepX</h1>
-<h3 align="center">Extract URLs that may be vulnerable</h3>
+<h3 align="center">Extract URLs that may be vulnerable from a list of URLs</h3>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub release](https://img.shields.io/github/release/DevanshRaghav75/grepX.svg)](https://GitHub.com/DevanshRaghav75/grepX/releases/)
