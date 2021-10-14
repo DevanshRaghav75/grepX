@@ -9,7 +9,7 @@
 
 ## What is grepX?
 
-grepX is a multithreaded CLI tool which finds `xss, sqli, ssrf, lfi, rce, redirect, ssti, idor` patterns/parameters from the given file and saves the output.
+grepX is a multi-threaded CLI tool which extracts some special URLs with parameters that may be vulnerable. Each pattern will output different URLs according to its parameters. 
 
 ## Installation
 ```
