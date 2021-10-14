@@ -15,7 +15,7 @@ grepX is a multi-threaded CLI tool which extracts some special URLs with paramet
 ```
 $ git clone https://github.com/DevanshRaghav75/grepX.git
 $ cd grepX
-$ python3 setup.py install
+$ sudo python3 setup.py install
 $ grepX -h 
 ```
 ## Args
